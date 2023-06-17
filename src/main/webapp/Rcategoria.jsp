@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--title-->
-    <title>login de usuario</title>
+    <title>Rcategoria</title>
 
     <!--favicon-->
     <link rel="icon" type="image/x-icon" href="img/buildings-fill.svg">
@@ -39,14 +39,14 @@
 <main class="form-signin w-100 m-auto">
     <form action="" method="post">
         <img class="mb-4" src="img/buildings-fill.svg" alt="LOGIN" width="100">
-        <h4 class="text-secondary">LOGIN</h4>
-        <h1 class="h5 mb-3 fw-normal">Ingreso</h1>
+        <h4 class="text-secondary">RCategoria</h4>
+        <h1 class="h5 mb-3 fw-normal">Categoria</h1>
 
         <div class="form-floating">
             <input type="text" class="form-control" id="floatingInput"
                    placeholder="ingrese el nombre de la categoria" required autofocus
                    pattern="[A-Za-z0-9]{8, 12}">
-            <label for="floatingInput">Usuario</label>
+            <label for="floatingInput">Nombre Categoria</label>
         </div>
 
 

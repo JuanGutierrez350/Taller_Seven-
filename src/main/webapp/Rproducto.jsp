@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--title-->
-    <title>login de usuario</title>
+    <title>RProducto</title>
 
     <!--favicon-->
     <link rel="icon" type="image/x-icon" href="img/buildings-fill.svg">
@@ -38,12 +38,12 @@
 <!-- login form -->
 <main class="form-signin w-100 m-auto">
     <form action="" method="post">
-        <img class="mb-4" src="img/buildings-fill.svg" alt="LOGIN" width="100">
-        <h4 class="text-secondary">LOGIN</h4>
-        <h1 class="h5 mb-3 fw-normal">Ingreso</h1>
+        <img class="mb-4" src="img/buildings-fill.svg" alt="PRODUCTO" width="100">
+        <h4 class="text-secondary">Rproducto</h4>
+        <h1 class="h5 mb-3 fw-normal">Producto</h1>
 
         <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword"
+            <input type="password" class="form-control" id="floatingID"
                    placeholder="ingrese el id del producto" required>
             <label for="floatingInput">ID</label>
         </div>
@@ -56,9 +56,9 @@
         </div>
 
         <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword"
+            <input type="number" class="form-control" id="floatingNumber"
                    placeholder="ingrese el valor del producto" required>
-            <label for="floatingInput">Valor Producto</label>
+            <label for="floatingNumber">Valor Producto</label>
         </div>
 
         <button class="w-100 btn btn-lg btn-danger" type="submit">Enviar</button>

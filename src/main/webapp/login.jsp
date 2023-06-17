@@ -52,12 +52,14 @@
     <div class="form-floating">
       <input type="password" class="form-control" id="floatingPassword"
              placeholder="ingrese su contraseña" required>
-      <label for="floatingPassword">Contraseña</label>
+      <label for="floatingInput">Contraseña</label>
     </div>
 
     <button class="w-100 btn btn-lg btn-danger" type="submit">Ingresar</button>
     <div id="register">
       <a href="./index.jsp">Registrarse</a>
+      <a href="./Rproducto.jsp">Rproducto</a>
+      <a href="./Rcategoria.jsp">Rcategoria</a>
     </div>
     <p class="mt-3 mb-3 text-muted">Todos los Derechos Reservados JUAN
     <%=displayDate()%>
